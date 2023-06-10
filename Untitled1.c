@@ -6,10 +6,10 @@ int main(){
     char name[100];
     printf("Enter name: ");
     gets(name);
-    puts(name);
-    puts(strrev(name));
+    puts(strrev(name)); //Using C function
+
     /*for(int i=strlen(name)-1;i>=0;i--){
-        printf("%s",name[0]);
+        printf("%s",name[0]);              //Without using C function
     }*/
 
 }

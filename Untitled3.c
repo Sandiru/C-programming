@@ -19,7 +19,6 @@ int main(){
             name[j+1]='\0';
         }
         printf("%s\n",name);
-
     }
     printf("%s",name);
 

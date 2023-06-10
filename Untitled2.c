@@ -11,7 +11,6 @@ int main(){
         if(name[i]==' '){
             count+=1;
         }
-
 }
 printf("There are %d words in the string.",count);
 
